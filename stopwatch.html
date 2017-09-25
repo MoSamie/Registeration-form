@@ -1,0 +1,47 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="samy8.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+</head>
+
+	<center>
+		<body onload="listen()">
+		<div id="names">
+		<input type="text" id="name" class="form-control" placeholder="First Name">
+		<input type="text" id="name" class="form-control" placeholder="Last Name">
+		</div>
+
+
+		<div id="genderdiv" class="input-group">
+			<span class="input-group-addon"><i style="font-size:17px" class="fa fa-transgender"></i></span>
+		
+		 <select id="gender" class="selectpicker form-control" data-live-search="true" title="Please select a lunch ...">
+                <option>Male</option>
+                <option>Female</option>
+               
+            </select> 
+	</div>
+
+		<div id="emaildiv" class="input-group">
+			 <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+		<input type="text" id="email" class="form-control" placeholder="Email"><br>
+	</div>
+
+		<div id="passdiv" class="input-group">
+			 <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+		<input type="password" id="password" class="form-control" placeholder="Set a password"><br>
+	</div>
+
+<div id="repassdiv" class="input-group">
+	<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+		<input type="password" id="repass" class="form-control" placeholder="Repeat password">
+		</div>
+		<button id="ibutton" class="btn" onclick="directing()">Sign Up</button>
+
+	
+		<script src="samy8.js"></script>
+</body>
+	</center>
